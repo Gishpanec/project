@@ -19,3 +19,4 @@ public class test2 {
         System.out.printf("Name: %s  Age: %d  Height: %.3f \n", name, age, height);
     }
 }
+
