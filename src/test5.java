@@ -16,11 +16,12 @@ static class ModDemo {
 
         System.out.println("Peзyльтaт и остаток от деления 10 / 3: " +
 
-                iresult + " " + irem);
+                iresult + " " );
+        System.out.println("Peзyльтaт и остаток от деления 10 % 3: " + irem + " ");
 
         System.out.println("Peзyльтaт и остаток от деления 10.0 / 3.0: "
 
-                + dresult + " " + drem);
+                + dresult +  "; Peзyльтaт и остаток от деления 10.0 % 3.0: " + drem);
 
 
         }
