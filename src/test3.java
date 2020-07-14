@@ -60,8 +60,7 @@ static class Hypot {
                 System.out.println("Этa инструкция не выполняется");
             }
             // В результате выполнения сравнения получается логическое значение
-            System.out.print("Input a number: ");
-            int num = in.nextInt();
+
             System.out.println("Peзyльтaт сравнения 10 > 9: " + (10 > 85));
         }
 
