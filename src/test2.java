@@ -10,8 +10,9 @@ public class test2 {
         System.out.printf("Your number: %d \n", num);
 
         /*ввод и вывод типов String, int, float */
-        System.out.print("Input name: ");
+        System.out.println("Input name: ");
         String name = in.nextLine();
+
         System.out.print("Input age: ");
         int age = in.nextInt();
         System.out.print("Input height: ");

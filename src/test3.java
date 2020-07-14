@@ -38,4 +38,32 @@ static class Hypot {
 
     }
 }
+// Демонстрация использования логических значений
+
+    static class BoolDemo {
+        public static void main(String args[]) {
+            Scanner in = new Scanner(System.in);
+            boolean b,a;
+            b= false;
+            System.out.println("Знaчeниe b: " + b);
+            a = true;
+            System.out.println("Знaчeниe a " + a);
+
+            // Логическое значение можно использовать для
+            // управления условным оператором if
+
+            if (b) {
+                System. out. println ( "Эта инструкция вьполняется");
+            }
+            b = false;
+            if(a) {
+                System.out.println("Этa инструкция не выполняется");
+            }
+            // В результате выполнения сравнения получается логическое значение
+            System.out.print("Input a number: ");
+            int num = in.nextInt();
+            System.out.println("Peзyльтaт сравнения 10 > 9: " + (10 > 85));
+        }
+
+    }
 }
