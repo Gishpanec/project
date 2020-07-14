@@ -21,14 +21,6 @@ public class Main {
         int y=5;
         System.out.println("x="+x+";y="+y);
 
-        /*переписывание предыдущего примера
-        public class test {
 
-            public static void main(String[] args) {
-                int x = 7;
-                int y = 8;
-                System.out.printf("x=%d; y=%d \n, x, y");
-            }
-        }*/
     }
 }
