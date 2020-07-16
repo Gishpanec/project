@@ -45,23 +45,28 @@ static class Hypot {
             Scanner in = new Scanner(System.in);
             boolean b,a;
             b= false;
-            System.out.println("Знaчeниe b: " + b);
+            System.out.println(" Знaчeниe b: " + b);
             a = true;
-            System.out.println("Знaчeниe a " + a);
+            System.out.println(" Знaчeниe a " + a);
 
-            // Логическое значение можно использовать для
+            // ввод значения для переменных а,в
+
+            System.out.print("введите значение а: " );
+            int p = in.nextInt();
+            System.out.print("Введите значение B: ");
+            int t = in.nextInt();
+
+            System.out.println("Peзyльтaт сравнения a > b: " + (p > t));
             // управления условным оператором if
-
-            if (b) {
+           if  (p>t) {
                 System. out. println ( "Эта инструкция вьполняется");
             }
             b = false;
-            if(a) {
+            if(t > p) {
                 System.out.println("Этa инструкция не выполняется");
             }
             // В результате выполнения сравнения получается логическое значение
 
-            System.out.println("Peзyльтaт сравнения 10 > 9: " + (10 > 85));
         }
 
     }
