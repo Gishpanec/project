@@ -19,13 +19,15 @@ public class test7 {
         public static void main(String[] args) {
             int absval, val;
             val = 7;
-            absval = val < 0 ? -val : val;
+            if(val < 0) absval = -val;
+            else absval = val;
             {
                 //выводим число
                 System.out.println("" + absval);
             }
             val = -7;
-            absval = val < 0 ? val : val;
+            if(val < 0) absval = -val;
+            else absval = val;
             {
                 System.out.println("" + absval);
             }
