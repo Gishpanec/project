@@ -1,29 +1,44 @@
+import java.sql.Blob;
+
 public class test6 {
-    public static void main(String[] args) {
-        {
+    static class encode {
+        static secret secret = decode()
+        byte[] b;
+        public static void main(String[] args) {
 
-        // метод для шифровки текста с помощью XOR
+            encode(String secret, String key){
 
-        public static byte[] encode (String secret, String key){
+                // метод для шифровки текста с помощью XOR
 
-            byte[] btxt = null;
-            byte[] bkey = null;
+                byte[] btxt = null;
 
-            btxt = secret.getBytes();
-            bkey = key.getBytes();
+                byte[] bkey = null;
 
 
-            byte[] result = new byte[secret.length()];
+                btxt = secret.getBytes();
 
-            for (int i = 0; i < btxt.length; i++) {
-                result[i] = (byte) (btxt[i] ^ bkey[i % bkey.length]);
+                bkey = key.getBytes();
+
+
+                byte[] result = new byte[secret.length()];
+
+
+                for (int i = 0; i < btxt.length; i++) {
+
+                    result[i] = (byte) (btxt[i] ^ bkey[i % bkey.length]);
+
+                }
+
+                return result;
 
             }
-            return result;
         }
+    }
+
+}
 // метод для расшифровки текста
 
-        public static String decode ( byte[] secret, String key){
+        public static String decode ( byte[] secret key){
             byte[] result = new byte[secret.length];
             byte[] bkey = key.getBytes();
 
