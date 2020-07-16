@@ -1,6 +1,6 @@
 import java.sql.Blob;
 
-public class test6 {
+/*public class test6 {
     static class encode {
         static secret secret = decode()
         byte[] b;
@@ -49,3 +49,4 @@ public class test6 {
             return new String(result);
         }
     }
+*/
