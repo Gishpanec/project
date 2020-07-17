@@ -31,71 +31,61 @@ public class table {
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 2;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 3;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 4;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 5;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 6;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 7;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 8;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 9;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
             post = a + 10;
             otvet = x * post;
             result = post <= 10;
             {
-                str = (Integer.toString(x) + "*" + Integer.toString(post) + "=" + Integer.toString(otvet) + "\t");
-                System.out.println(str);
+                System.out.println((x)+"*"+(post)+"="+(otvet)+"\t");
             }
 
 
