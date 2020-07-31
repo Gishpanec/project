@@ -1,4 +1,5 @@
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class OperSwitch {
@@ -174,9 +175,9 @@ public class OperSwitch {
             }
             if (month == 3 || month == 4 || month == 5)
                 season = "Весна";
-            System.out.println("Мартовские песни коты поют, когда на дворе "
+            else System.out.println("Мартовские песни коты поют, когда на дворе "
                     + season);
-            else if (month != 3 || month != 4 || month != 5);
+            if (month != 3 || month != 4 || month != 5);
 
             System.out.println("не сезон для котов "
                     + season);
@@ -185,5 +186,100 @@ public class OperSwitch {
 
         }
     }
-    static class
+    static class randoma {
+        public static void main(String[] args) {
+            Random random = new Random();
+
+            for (int i = 0; i < 100; i++) {
+                int c = random.nextInt(26) + 'a';
+                System.out.println((char)c + ", " + c + ": ");
+                switch (c) {
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
+                        System.out.println("Гласная");
+                        break;
+                    case 'y':
+                    case 'w':
+                        System.out.println("Условная гласная");
+                        break;
+
+                    default:
+                        System.out.println("Согласная");
+                        break;
+                }
+            }
+        }
+    }
+}
+class StringSwitchDemo {
+
+    public static int getMonthNumber(String month) {
+
+        int monthNumber = 0;
+
+        if (month == null) {
+            return monthNumber;
+        }
+
+        switch (month.toLowerCase()) {
+            case "january":
+                monthNumber = 1;
+                break;
+            case "february":
+                monthNumber = 2;
+                break;
+            case "march":
+                monthNumber = 3;
+                break;
+            case "april":
+                monthNumber = 4;
+                break;
+            case "may":
+                monthNumber = 5;
+                break;
+            case "june":
+                monthNumber = 6;
+                break;
+            case "july":
+                monthNumber = 7;
+                break;
+            case "august":
+                monthNumber = 8;
+                break;
+            case "september":
+                monthNumber = 9;
+                break;
+            case "october":
+                monthNumber = 10;
+                break;
+            case "november":
+                monthNumber = 11;
+                break;
+            case "december":
+                monthNumber = 12;
+                break;
+            default:
+                monthNumber = 0;
+                break;
+        }
+
+        return monthNumber;
+    }
+
+    public static void main(String[] args) {
+
+        String month = "August";
+
+        int returnedMonthNumber =
+                StringSwitchDemo.getMonthNumber(month);
+
+        if (returnedMonthNumber == 0) {
+            System.out.println("Invalid month");
+        } else {
+            System.out.println(returnedMonthNumber);
+        }
+    }
 }
